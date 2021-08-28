@@ -1,0 +1,46 @@
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.badge{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge button{
+  margin: auto;
+  width: 45%;
+}
+
+.content{
+  width: 100%;
+}
+
+.novo-todo{
+  width: 45%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+mat-card{
+  margin-top: .8rem;
+  padding: 1rem;
+}
+
+p{
+  text-align: end;
+  font-weight: 600;
+  color: rgb(54, 54, 54);
+  margin-bottom: 0;
+}
+
+.actions{
+  text-align: end;
+}
+
+.actions button{
+  margin: .5rem;
+}

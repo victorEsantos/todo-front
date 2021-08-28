@@ -1,0 +1,27 @@
+<form action="">
+  <h1>Criar Novo Todo</h1>
+
+  <mat-form-field class="data-finalizar" appearance="fill">
+    <mat-label>Data para finalizar</mat-label>
+    <input [(ngModel)]="todo.finishedDate" name="todo.finishedDate" matInput [matDatepicker]="dp3" disabled />
+    <mat-datepicker-toggle matSuffix [for]="dp3"></mat-datepicker-toggle>
+    <mat-datepicker #dp3 disabled="false"></mat-datepicker>
+  </mat-form-field>
+
+  <div class="forms">
+    <mat-form-field class="form" appearance="fill">
+      <mat-label>Titulo</mat-label>
+      <input [(ngModel)]="todo.title" name="todo.title" matInput placeholder="Ex. Estudar Spring" value="" />
+    </mat-form-field>
+
+    <mat-form-field class="form" appearance="fill">
+      <mat-label>Descrição</mat-label>
+      <textarea [(ngModel)]="todo.description" name="todo.description" matInput placeholder="Ex. Descrição Estudar Spring..."></textarea>
+    </mat-form-field>
+  </div>
+
+  <div class="buttons">
+    <button class="cancelar" mat-raised-button color="warn" (click)="voltar()">Cancelar</button>
+    <button class="salvar" (click)="create()" mat-raised-button color="primary">Salvar</button>
+  </div>
+</form>

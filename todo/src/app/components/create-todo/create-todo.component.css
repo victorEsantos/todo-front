@@ -1,0 +1,36 @@
+form {
+  width: 85%;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+}
+.data-finalizar {
+  text-align: start;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  color: rgb(56, 56, 56);
+}
+
+.form {
+  margin: auto;
+  display: block;
+  width: 25%;
+}
+
+.buttons {
+  width: 25%;
+  margin: auto;
+}
+
+.salvar {
+  float: right;
+  width: 70%;
+}
+
+.cancelar {
+  float: left;
+  width: 25%;
+}
